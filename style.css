@@ -1,0 +1,40 @@
+body {
+    width: 300px;
+    min-height: 150px;
+    background-color: #f0f0f0; /* Set the background color to a light gray */
+    font-family: Arial, sans-serif;
+    color: #333; /* Set the font color to a dark gray */
+  }
+  
+  .quote-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .quote {
+    font-size: 20px; /* Increase the font size for a more prominent quote */
+    font-weight: bold;
+    margin-bottom: 16px; /* Add some spacing between the quote and the button */
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Add a smooth transition effect */
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Add a background image */
+  body {
+    background-image: url('background.jpg'); /* Replace 'background.jpg' with your image URL */
+    background-size: cover;
+    background-position: center;
+  }
+  

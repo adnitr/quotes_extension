@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Motivational Quotes",
+  "version": "1.0",
+  "description": "Fetches motivational and inspirational quotes.",
+  "icons": {
+    "16": "head.png",
+    "48": "head.png",
+    "128": "head.png"
+  },
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "https://zenquotes.io/api/random"
+  ]
+}
